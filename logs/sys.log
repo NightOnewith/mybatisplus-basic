@@ -1,0 +1,18 @@
+2019-12-20 16:08:56.079  INFO 6920 --- [main] com.ethan.MpApplication                  : Starting MpApplication on yin with PID 6920 (F:\mydevelop\myprojects\mp\target\classes started by ASUS in F:\mydevelop\myprojects\mp)
+2019-12-20 16:08:56.083  INFO 6920 --- [main] com.ethan.MpApplication                  : No active profile set, falling back to default profiles: default
+2019-12-20 16:08:57.307  INFO 6920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-20 16:08:57.316  INFO 6920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-20 16:08:57.316  INFO 6920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-20 16:08:57.438  INFO 6920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-20 16:08:57.438  INFO 6920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1291 ms
+2019-12-20 16:08:58.007  INFO 6920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 16:08:58.167  INFO 6920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-20 16:08:58.170  INFO 6920 --- [main] com.ethan.MpApplication                  : Started MpApplication in 2.558 seconds (JVM running for 3.057)
+2019-12-20 16:09:03.755  INFO 6920 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-20 16:09:03.756  INFO 6920 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-20 16:09:03.762  INFO 6920 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-20 16:09:03.898  INFO 6920 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-20 16:09:04.032  INFO 6920 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-20 16:09:04.040 DEBUG 6920 --- [http-nio-8080-exec-2] com.ethan.dao.MemberMapper.selectByMap   : ==>  Preparing: SELECT id,name,password,state,super_id,create_time FROM sys_member WHERE password = ? AND name = ? 
+2019-12-20 16:09:04.062 DEBUG 6920 --- [http-nio-8080-exec-2] com.ethan.dao.MemberMapper.selectByMap   : ==> Parameters: 1234(Integer), 田七(String)
+2019-12-20 16:09:04.089 DEBUG 6920 --- [http-nio-8080-exec-2] com.ethan.dao.MemberMapper.selectByMap   : <==      Total: 1
