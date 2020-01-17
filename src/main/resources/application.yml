@@ -18,7 +18,7 @@ mybatis-plus:
     map-underscore-to-camel-case: true
 
   # 自定义SQL语句文件路径
-  mapper-locations: com/ethan/mapper/*
+  mapper-locations: classpath:mapper/*
 
   # MP设置全局id策略为uuid，局部设置id策略在实体类对象的id属性上设置（局部策略 优先于 全局策略）
   global-config:
